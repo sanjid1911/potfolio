@@ -1,0 +1,59 @@
+=====================================================================
+INFO NEEDED TO FINISH THE PORTFOLIO SITE  (STATUS: updated)
+=====================================================================
+
+---------------------------------------------------------------------
+1. IMAGES — DONE
+---------------------------------------------------------------------
+Found your files, filenames didn't match my original guesses so I
+updated index.html to point at what's actually in the folders:
+
+   images/profile/professional_img.png   -> About section photo
+   images/projects/opsroi.png            -> OPSROI CRM
+   images/projects/nupath.png            -> NuPath AI
+   images/projects/octopi.png            -> Octopi Digital HR System
+   images/projects/DCN.png               -> Document Compliance Network
+
+All 5 are live on the site now. If you ever swap a file, keep the
+same filename and it'll update automatically — no code changes needed.
+
+
+---------------------------------------------------------------------
+2. SOCIAL / PROFILE LINKS — DONE
+---------------------------------------------------------------------
+LinkedIn: https://www.linkedin.com/in/md-sanzid-29b675241/  -> wired into Contact section
+GitHub:   https://www.github.com/sanjid1911                -> wired into Contact section
+Kaggle:   skipped per your note (row removed from Contact section)
+
+
+---------------------------------------------------------------------
+3. PORTFOLIO DOMAIN — still open (optional)
+---------------------------------------------------------------------
+Do you have a domain yet (e.g. sanzid.dev)? _________________________
+(Not required to launch — only affects meta tags / future hosting.
+Tell me whenever you have one and I'll wire it into the <title>/meta.)
+
+
+---------------------------------------------------------------------
+4. OTHER CHANGES MADE THIS ROUND
+---------------------------------------------------------------------
+- Hero tagline updated to: "BUILDING SCALABLE FULL-STACK SYSTEMS
+  WITH AI INTEGRATIONS." (fixed a typo from your note: INTIGRATIONS
+  -> INTEGRATIONS — let me know if you want different wording)
+- Tech stack marquee now shows real framework/language logos
+  (React, Next.js, Node.js, NestJS, FastAPI, MongoDB, PostgreSQL,
+  Redis, Docker, Tailwind CSS, JS, TS, Python) pulled from the
+  devicon CDN, each on a white badge so they stay visible on the
+  dark background. LangChain and Socket.io don't have a devicon
+  logo available, so they still show as text-only chips.
+  No image files needed from you for this section.
+
+---------------------------------------------------------------------
+5. STILL DEFAULTED (change anytime)
+---------------------------------------------------------------------
+- Nav links: Services / Projects / About / Contact
+- Resume download button uses assets/resume/Md_Sanzid_Resume.pdf
+- Contact section is static info only (no form/backend)
+- No blog section, no client-logo section
+
+=====================================================================

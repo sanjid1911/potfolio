@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Sanzid — Full Stack Software Engineer</title>
+<meta name="description" content="Portfolio of Md. Sanzid, Full Stack Software Engineer specializing in React, Next.js, Node.js, NestJS, and AI/LLM integration.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230a0e0c%22/><text x=%2250%22 y=%2266%22 font-family=%22monospace%22 font-size=%2255%22 fill=%22%2300ff9d%22 text-anchor=%22middle%22>&gt;_</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="crt-overlay" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <span class="nav-logo-bracket">&gt;_</span>
+      <span class="nav-logo-text">sanzid<span class="cursor-blink">.dev</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">services</a>
+      <a href="#projects">projects</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a href="assets/resume/Md_Sanzid_Resume.pdf" class="btn btn-ghost nav-cta" download>Resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="terminal-window hero-terminal">
+      <div class="terminal-bar">
+        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+        <span class="terminal-title">sanzid@systems: ~</span>
+      </div>
+      <div class="terminal-body">
+        <p class="term-line"><span class="prompt">$</span> whoami</p>
+        <h1 class="hero-title">MD. SANZID</h1>
+        <p class="term-line term-muted">// Full Stack Software Engineer</p>
+
+        <p class="term-line" style="margin-top:1.5rem"><span class="prompt">$</span> cat mission.txt</p>
+        <p class="hero-tagline">
+          BUILDING SCALABLE FULL-STACK SYSTEMS<br>
+          <span class="accent">WITH AI INTEGRATIONS.</span>
+        </p>
+
+        <div class="status-row">
+          <span class="status-tag">[OK] TypeScript / React / Next.js</span>
+          <span class="status-tag">[OK] Node.js / NestJS / FastAPI</span>
+          <span class="status-tag">[OK] LLM / RAG / OCR Pipelines</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES / CORE MODULES ============ -->
+  <section class="section" id="services">
+    <p class="section-kicker"><span class="prompt">$</span> ls core_modules/</p>
+    <h2 class="section-title">CORE MODULES</h2>
+
+    <div class="modules-grid">
+      <article class="module-card">
+        <div class="module-head">
+          <span class="module-id">01</span>
+          <span class="status-pill">[OK]</span>
+        </div>
+        <h3>BACKEND_SYSTEMS.node</h3>
+        <p>Scalable REST APIs, multi-tenant architecture, WebSocket-based real-time systems, and secure JWT/OAuth authentication with role-based access control.</p>
+        <div class="tag-row">
+          <span class="tag">Node.js</span><span class="tag">NestJS</span><span class="tag">FastAPI</span><span class="tag">Socket.io</span>
+        </div>
+      </article>
+
+      <article class="module-card">
+        <div class="module-head">
+          <span class="module-id">02</span>
+          <span class="status-pill">[OK]</span>
+        </div>
+        <h3>FRONTEND_INTERFACE.node</h3>
+        <p>Production-grade dashboards, client portals, and responsive web applications built with modern React patterns and clean, maintainable UI architecture.</p>
+        <div class="tag-row">
+          <span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">Redux Toolkit</span><span class="tag">Tailwind CSS</span>
+        </div>
+      </article>
+
+      <article class="module-card">
+        <div class="module-head">
+          <span class="module-id">03</span>
+          <span class="status-pill">[OK]</span>
+        </div>
+        <h3>AI_AUTOMATION.node</h3>
+        <p>Document intelligence pipelines, OCR + LLM integration, prompt engineering, and RAG-based systems that turn unstructured data into structured workflows.</p>
+        <div class="tag-row">
+          <span class="tag">LangChain</span><span class="tag">OpenAI API</span><span class="tag">RAG</span><span class="tag">OCR</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TECH STACK STRIP ============ -->
+  <section class="section stack-section">
+    <p class="section-kicker"><span class="prompt">$</span> cat /proc/stack</p>
+    <div class="stack-marquee" aria-hidden="false">
+      <div class="stack-track" id="stackTrack"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <p class="section-kicker"><span class="prompt">$</span> ls -la projects/ --status</p>
+    <h2 class="section-title">EXECUTED PROJECTS</h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-img-wrap">
+          <img src="images/projects/opsroi.png" alt="OPSROI CRM screenshot" class="project-img" onerror="this.closest('.project-img-wrap').classList.add('img-missing')">
+          <span class="img-fallback-text">[ IMAGE_NOT_FOUND: opsroi.png ]</span>
+        </div>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>OPSROI CRM</h3>
+            <span class="status-pill status-live">[LIVE]</span>
+          </div>
+          <p>Multi-tenant CRM platform for tree service businesses — client management, job scheduling, payments, and real-time collaboration with enterprise-grade security.</p>
+          <ul class="project-points">
+            <li>6-role RBAC, JWT / Google OAuth authentication, real-time updates via Socket.io</li>
+            <li>Visual drag-and-drop workflow automation with scheduled jobs (Node-cron)</li>
+            <li>Stripe, Twilio, Google Calendar, Zoom &amp; Vapi AI integrations</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">React 19</span><span class="tag">Redux Toolkit</span><span class="tag">Node.js</span><span class="tag">Socket.io</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img-wrap">
+          <img src="images/projects/nupath.png" alt="NuPath AI screenshot" class="project-img" onerror="this.closest('.project-img-wrap').classList.add('img-missing')">
+          <span class="img-fallback-text">[ IMAGE_NOT_FOUND: nupath.png ]</span>
+        </div>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>NuPath AI</h3>
+            <span class="status-pill status-live">[LIVE]</span>
+          </div>
+          <p>AI-powered mental health platform delivering personalized wellness support at scale. Built the admin and organization management layer.</p>
+          <ul class="project-points">
+            <li>Admin dashboard &amp; organization management modules</li>
+            <li>Configurable prompt management system for AI recommendations</li>
+            <li>Voice AI integration for conversational interactions</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">LLM Integration</span><span class="tag">RBAC</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img-wrap">
+          <img src="images/projects/octopi.png" alt="Octopi Digital HR system screenshot" class="project-img" onerror="this.closest('.project-img-wrap').classList.add('img-missing')">
+          <span class="img-fallback-text">[ IMAGE_NOT_FOUND: octopi.png ]</span>
+        </div>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>Octopi Digital Limited — HR System</h3>
+            <span class="status-pill status-live">[LIVE]</span>
+          </div>
+          <p>Full-stack HR &amp; Employee Management system for internal company use — 20+ modules replacing manual HR processes with automated workflows.</p>
+          <ul class="project-points">
+            <li>Real-time notifications (Socket.io) and automated workflows (Node-cron)</li>
+            <li>JWT authentication with feature-level RBAC &amp; encrypted credential management</li>
+            <li>PDF/Excel report generation, QR codes, Cloudinary &amp; Dropbox integration</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">React 18</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">Redux Toolkit</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img-wrap">
+          <img src="images/projects/DCN.png" alt="Document Compliance Network screenshot" class="project-img" onerror="this.closest('.project-img-wrap').classList.add('img-missing')">
+          <span class="img-fallback-text">[ IMAGE_NOT_FOUND: DCN.png ]</span>
+        </div>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>Document Compliance Network</h3>
+            <span class="status-pill status-live">[LIVE]</span>
+          </div>
+          <p>Backend system extracting and validating structured data from unstructured documents at scale, with a clean, modular processing pipeline.</p>
+          <ul class="project-points">
+            <li>Scalable backend built with FastAPI (Python)</li>
+            <li>Document ingestion pipelines for PDF, image &amp; DOCX formats</li>
+            <li>RESTful APIs for workflow automation and validation</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">REST APIs</span><span class="tag">SQL</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <p class="section-kicker"><span class="prompt">$</span> cat about.md</p>
+    <h2 class="section-title">ABOUT</h2>
+
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <div class="terminal-bar mini-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+        </div>
+        <img src="images/profile/professional_img.png" alt="Md. Sanzid" class="about-photo" onerror="this.closest('.about-photo-wrap').classList.add('img-missing')">
+        <span class="img-fallback-text">[ IMAGE_NOT_FOUND: professional_img.png ]</span>
+      </div>
+
+      <div class="about-content">
+        <p>Software Engineer with 1+ year of hands-on experience building scalable full-stack applications and RESTful APIs using TypeScript, React.js, Next.js, Node.js, NestJS, and MongoDB. Proven track record shipping production-grade SaaS platforms, from enterprise CRMs to AI-powered tools integrating Python, LLMs, and OCR pipelines.</p>
+
+        <div class="about-block">
+          <h4>// experience</h4>
+          <p><strong>Software Engineer</strong> — Octopi Digital LLC <span class="term-muted">(Jan 2026 – Present)</span><br>
+          Own end-to-end backend development for enterprise SaaS platforms — API design, production deployment, authentication, RBAC, real-time features (WebSocket), and MongoDB/SQL Server optimization. Contribute across the stack on Next.js/React, manage Linux deployment &amp; reliability.</p>
+        </div>
+
+        <div class="about-block">
+          <h4>// education</h4>
+          <p><strong>B.Sc in Computer Science &amp; Engineering</strong><br>
+          National Institute of Textile Engineering &amp; Research <span class="term-muted">(02/2022 – 07/2026)</span></p>
+        </div>
+
+        <div class="about-block">
+          <h4>// leadership</h4>
+          <p><strong>Executive Director of Web Design &amp; Development</strong> — NITER Computer Club <span class="term-muted">(01/2024 – 01/2025)</span><br>
+          Conducted web development sessions, organized technical events &amp; competitions, mentored club members on real-world project development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+        <span class="terminal-title">sanzid@systems: ~/contact</span>
+      </div>
+      <div class="terminal-body">
+        <p class="term-line"><span class="prompt">$</span> contact --info</p>
+
+        <div class="contact-grid">
+          <a class="contact-row" href="mailto:mssanjidahmed993@gmail.com">
+            <span class="contact-key">email</span>
+            <span class="contact-val">mssanjidahmed993@gmail.com</span>
+          </a>
+          <a class="contact-row" href="tel:+8801643685314">
+            <span class="contact-key">phone</span>
+            <span class="contact-val">+880 1643-685314</span>
+          </a>
+          <div class="contact-row">
+            <span class="contact-key">location</span>
+            <span class="contact-val">Mirpur, Dhaka, Bangladesh</span>
+          </div>
+          <a class="contact-row" href="https://www.linkedin.com/in/md-sanzid-29b675241/" target="_blank" rel="noopener">
+            <span class="contact-key">linkedin</span>
+            <span class="contact-val">/in/md-sanzid-29b675241</span>
+          </a>
+          <a class="contact-row" href="https://www.github.com/sanjid1911" target="_blank" rel="noopener">
+            <span class="contact-key">github</span>
+            <span class="contact-val">/sanjid1911</span>
+          </a>
+        </div>
+
+        <p class="term-line term-muted" style="margin-top:2rem">// end of file</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="nav-logo-bracket">&gt;_</span> <span>sanzid.dev</span>
+    <span class="footer-sep">|</span>
+    <span id="year"></span> Md. Sanzid. Built with HTML, CSS &amp; JS.
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
